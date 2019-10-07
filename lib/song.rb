@@ -14,7 +14,7 @@ class Song
     
     @@genres << genre
     @@artists << artist
-    if genre_count[genre] == nil
+    if genre_count.has_key == nil
       
     end
   end
